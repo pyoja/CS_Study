@@ -22,7 +22,7 @@ HTTP(HyperText Transfer Protocol): 클라이언트와 서버가 리소스를 주
 - 서로 다른 도메인 간의 리소스를 가져오고 싶은 경우, 정해진 규약을 통해 선택한 리소스에 접근 권한을 부여하도록 브라우저에 알려줌.
 - CORS는 서버에서 외부 요청을 허용할 때 Ajax 요청이 가능해지는 방식.
 
-[예시 - Node.js]
+[CORS 예시 - Node.js]
 - npm i cors
 ```
 var express = require('express')
@@ -40,8 +40,6 @@ app.listen(80, function () {
 })
 
 ```
-![[Pasted image 20240111095342.png]]
-(출처가 다르네? 이 응답은 거부하자 -> CORS 에러 발생!)
 
 [JSON과 XML]
 - 브라우저와 서버 간의 자료를 통신할 때 사용되는 표준화된 데이터 포멧
@@ -91,6 +89,10 @@ app.listen(80, function () {
 - 데브옵스는 조직의 문화, 사고방식이며 지속적으로 발전하고 개선하는 운동이며, 구성원에게는 일하는 태도이자 습관입니다.
   </div>
 </details>
+
+
+---
+
 
 ## 네트워크
 <details>
