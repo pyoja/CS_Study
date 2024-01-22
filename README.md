@@ -1,7 +1,7 @@
 # 개발자가 되기 위해 꼭 알아야 하는 IT 용어
 
 <details>
-  <summary> 요약 </summary>
+  <summary> 책 내용 요약 </summary>
     <div markdown="1">
 렌더링: 웹 페이지를 구성하는 HTML, CSS 등의 파일을 브라우저상에 그려주는 것
 CSR (Client Side Rendering) : 클라이언트 단에서 렌더링을 수행
